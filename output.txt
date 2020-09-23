@@ -1,0 +1,828 @@
+[2020-09-20 19:39:42.908388594 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:39:42.907Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:42:16.00156428 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:42:16.001Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:42:16.001632225 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:42:16.001Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:42:16.612435729 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:42:16.612Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":0.675075027}\n
+[2020-09-20 19:39:44.691155856 +0000 UTC] \n
+[2020-09-20 19:39:44.691569493 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:39:44.691730266 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:39:44.69189185 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:39:44.692078005 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:39:44.69226796 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:39:44.692418449 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:39:44.694711613 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:39:44.694755516 +0000 UTC] \n
+[2020-09-20 19:39:44.961906279 +0000 UTC] 2020-09-20 19:39:44.953  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-4qh6t with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:39:44.966311359 +0000 UTC] 2020-09-20 19:39:44.965  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:39:45.164879505 +0000 UTC] 2020-09-20 19:39:45.164  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16b4a017: startup date [Sun Sep 20 19:39:45 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:39:48.774834879 +0000 UTC] 2020-09-20 19:39:48.774  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:39:48.833674083 +0000 UTC] 2020-09-20 19:39:48.833  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:39:48.834798729 +0000 UTC] 2020-09-20 19:39:48.834  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:39:48.875660392 +0000 UTC] 2020-09-20 19:39:48.874  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:39:49.052368448 +0000 UTC] 2020-09-20 19:39:49.051  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:39:49.05293421 +0000 UTC] 2020-09-20 19:39:49.052  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3898 ms\n
+[2020-09-20 19:39:49.410244628 +0000 UTC] 2020-09-20 19:39:49.409  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:39:49.416407864 +0000 UTC] 2020-09-20 19:39:49.415  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 20:05:13.958273268 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:05:13.957Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 20:06:58.809606153 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:06:58.809Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 20:06:58.809728508 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:06:58.809Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 20:06:59.771999109 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:06:59.771Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":1.062497379}\n
+[2020-09-20 20:05:15.903008337 +0000 UTC] \n
+[2020-09-20 20:05:15.903078364 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 20:05:15.912901101 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 20:05:15.912941457 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 20:05:15.912948637 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 20:05:15.91297212 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 20:05:15.912978192 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 20:05:15.914146347 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 20:05:15.914176221 +0000 UTC] \n
+[2020-09-20 20:05:16.357611224 +0000 UTC] 2020-09-20 20:05:16.346  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-4z9cd with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 20:05:16.358963187 +0000 UTC] 2020-09-20 20:05:16.358  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 20:05:16.509520568 +0000 UTC] 2020-09-20 20:05:16.508  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@57fa26b7: startup date [Sun Sep 20 20:05:16 GMT 2020]; root of context hierarchy\n
+[2020-09-20 20:05:20.631699181 +0000 UTC] 2020-09-20 20:05:20.631  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 20:05:20.704490226 +0000 UTC] 2020-09-20 20:05:20.703  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 20:05:20.705706434 +0000 UTC] 2020-09-20 20:05:20.705  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 20:05:20.742050865 +0000 UTC] 2020-09-20 20:05:20.741  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 20:05:20.924142628 +0000 UTC] 2020-09-20 20:05:20.923  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 20:05:20.925165417 +0000 UTC] 2020-09-20 20:05:20.924  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4422 ms\n
+[2020-09-20 20:05:21.257801838 +0000 UTC] 2020-09-20 20:05:21.257  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 20:05:21.264828444 +0000 UTC] 2020-09-20 20:05:21.264  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:56:43.952688137 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:56:43.952Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:59:04.712527741 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:59:04.712Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:59:04.712814361 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:59:04.712Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:59:06.113041818 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:59:06.112Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":1.554888135}\n
+[2020-09-20 19:56:47.158484147 +0000 UTC] \n
+[2020-09-20 19:56:47.158548588 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:56:47.163000921 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:56:47.163042485 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:56:47.163125925 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:56:47.1631474 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:56:47.163152664 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:56:47.164819147 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:56:47.164865958 +0000 UTC] \n
+[2020-09-20 19:56:47.812567648 +0000 UTC] 2020-09-20 19:56:47.808  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-5cgcc with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:56:47.827006484 +0000 UTC] 2020-09-20 19:56:47.826  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:56:48.092309328 +0000 UTC] 2020-09-20 19:56:48.090  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4141d797: startup date [Sun Sep 20 19:56:48 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:56:54.872431412 +0000 UTC] 2020-09-20 19:56:54.872  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:56:55.025958974 +0000 UTC] 2020-09-20 19:56:55.025  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:56:55.027062949 +0000 UTC] 2020-09-20 19:56:55.026  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:56:55.067716626 +0000 UTC] 2020-09-20 19:56:55.067  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:56:55.467422455 +0000 UTC] 2020-09-20 19:56:55.466  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:56:55.471078598 +0000 UTC] 2020-09-20 19:56:55.470  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7393 ms\n
+[2020-09-20 19:56:56.003863101 +0000 UTC] 2020-09-20 19:56:56.003  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:56:56.010380344 +0000 UTC] 2020-09-20 19:56:56.009  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:59:08.208472079 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:59:08.208Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 20:01:06.63719022 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:01:06.633Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 20:01:06.637257675 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:01:06.636Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 20:01:08.582132938 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:01:08.581Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":2.022524965}\n
+[2020-09-20 19:59:10.639441239 +0000 UTC] \n
+[2020-09-20 19:59:10.640248502 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:59:10.640275176 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:59:10.640282264 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:59:10.640287994 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:59:10.640303227 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:59:10.640442347 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:59:10.642782158 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:59:10.642807649 +0000 UTC] \n
+[2020-09-20 19:59:10.978393273 +0000 UTC] 2020-09-20 19:59:10.973  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-5hrvc with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:59:10.979692407 +0000 UTC] 2020-09-20 19:59:10.979  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:59:11.167676377 +0000 UTC] 2020-09-20 19:59:11.167  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6073f712: startup date [Sun Sep 20 19:59:11 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:59:14.47051075 +0000 UTC] 2020-09-20 19:59:14.470  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:59:14.560461505 +0000 UTC] 2020-09-20 19:59:14.557  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:59:14.561569217 +0000 UTC] 2020-09-20 19:59:14.561  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:59:14.606630534 +0000 UTC] 2020-09-20 19:59:14.606  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:59:14.787341593 +0000 UTC] 2020-09-20 19:59:14.786  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:59:14.787680014 +0000 UTC] 2020-09-20 19:59:14.787  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3636 ms\n
+[2020-09-20 19:59:15.135160513 +0000 UTC] 2020-09-20 19:59:15.134  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:59:15.144689807 +0000 UTC] 2020-09-20 19:59:15.144  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 20:01:09.255386813 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:01:09.254Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 20:05:10.821914315 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:05:10.821Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 20:05:10.821956908 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:05:10.821Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 20:05:11.480740508 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:05:11.480Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":0.737423646}\n
+[2020-09-20 20:01:13.213123094 +0000 UTC] \n
+[2020-09-20 20:01:13.213188243 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 20:01:13.213196593 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 20:01:13.213202452 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 20:01:13.213207494 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 20:01:13.213212273 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 20:01:13.213217535 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 20:01:13.214661435 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 20:01:13.214710524 +0000 UTC] \n
+[2020-09-20 20:01:13.792204052 +0000 UTC] 2020-09-20 20:01:13.782  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-5wkkp with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 20:01:13.811537542 +0000 UTC] 2020-09-20 20:01:13.811  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 20:01:14.058906695 +0000 UTC] 2020-09-20 20:01:14.058  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2ff5659e: startup date [Sun Sep 20 20:01:14 GMT 2020]; root of context hierarchy\n
+[2020-09-20 20:01:21.128734199 +0000 UTC] 2020-09-20 20:01:21.128  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 20:01:21.281382771 +0000 UTC] 2020-09-20 20:01:21.280  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 20:01:21.286386912 +0000 UTC] 2020-09-20 20:01:21.286  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 20:01:21.377221415 +0000 UTC] 2020-09-20 20:01:21.376  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 20:01:21.872473246 +0000 UTC] 2020-09-20 20:01:21.872  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 20:01:21.876125604 +0000 UTC] 2020-09-20 20:01:21.875  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7836 ms\n
+[2020-09-20 20:01:22.36294904 +0000 UTC] 2020-09-20 20:01:22.362  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 20:01:22.370090088 +0000 UTC] 2020-09-20 20:01:22.369  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:55:51.320188498 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:51.319Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:56:43.717005704 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:56:43.715Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:56:43.717062071 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:56:43.715Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:56:45.08627551 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:56:45.085Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":1.510991067}\n
+[2020-09-20 19:55:53.215960399 +0000 UTC] \n
+[2020-09-20 19:55:53.218856828 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:55:53.218896941 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:55:53.218903912 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:55:53.218980746 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:55:53.2189948 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:55:53.219000262 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:55:53.220270356 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:55:53.220306393 +0000 UTC] \n
+[2020-09-20 19:55:53.587311194 +0000 UTC] 2020-09-20 19:55:53.583  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-6dvk7 with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:55:53.596638081 +0000 UTC] 2020-09-20 19:55:53.596  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:55:53.801706212 +0000 UTC] 2020-09-20 19:55:53.801  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@47089e5f: startup date [Sun Sep 20 19:55:53 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:55:58.520730468 +0000 UTC] 2020-09-20 19:55:58.520  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:55:58.64307166 +0000 UTC] 2020-09-20 19:55:58.642  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:55:58.644258034 +0000 UTC] 2020-09-20 19:55:58.643  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:55:58.681022813 +0000 UTC] 2020-09-20 19:55:58.680  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:55:58.874397215 +0000 UTC] 2020-09-20 19:55:58.874  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:55:58.875189697 +0000 UTC] 2020-09-20 19:55:58.874  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5091 ms\n
+[2020-09-20 19:55:59.184949886 +0000 UTC] 2020-09-20 19:55:59.184  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:55:59.195444891 +0000 UTC] 2020-09-20 19:55:59.194  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 20:06:59.59034127 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:06:59.590Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 20:08:36.109820796 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:08:36.109Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 20:08:36.1098602 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:08:36.109Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 20:08:37.036348552 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:08:37.036Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":1.001104182}\n
+[2020-09-20 20:07:01.12291844 +0000 UTC] \n
+[2020-09-20 20:07:01.124441803 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 20:07:01.124696332 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 20:07:01.124877207 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 20:07:01.125088047 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 20:07:01.125273557 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 20:07:01.125457304 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 20:07:01.127169519 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 20:07:01.127321115 +0000 UTC] \n
+[2020-09-20 20:07:01.375444576 +0000 UTC] 2020-09-20 20:07:01.371  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-74k24 with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 20:07:01.379146817 +0000 UTC] 2020-09-20 20:07:01.378  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 20:07:01.546010331 +0000 UTC] 2020-09-20 20:07:01.539  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@277c0f21: startup date [Sun Sep 20 20:07:01 GMT 2020]; root of context hierarchy\n
+[2020-09-20 20:07:05.126337633 +0000 UTC] 2020-09-20 20:07:05.125  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 20:07:05.219310384 +0000 UTC] 2020-09-20 20:07:05.218  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 20:07:05.219794744 +0000 UTC] 2020-09-20 20:07:05.219  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 20:07:05.244786128 +0000 UTC] 2020-09-20 20:07:05.244  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 20:07:05.462449469 +0000 UTC] 2020-09-20 20:07:05.462  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 20:07:05.462888748 +0000 UTC] 2020-09-20 20:07:05.462  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3934 ms\n
+[2020-09-20 20:07:05.790366178 +0000 UTC] 2020-09-20 20:07:05.789  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 20:07:05.79716104 +0000 UTC] 2020-09-20 20:07:05.796  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:49:24.362817278 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:49:24.362Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:52:22.258097085 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:52:22.257Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:52:22.258135278 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:52:22.257Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:52:23.304323493 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:52:23.302Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":1.159121229}\n
+[2020-09-20 19:49:26.916366929 +0000 UTC] \n
+[2020-09-20 19:49:26.917189198 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:49:26.917401995 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:49:26.917559156 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:49:26.91775919 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:49:26.917915861 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:49:26.918091768 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:49:26.920447789 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:49:26.92062186 +0000 UTC] \n
+[2020-09-20 19:49:27.175384445 +0000 UTC] 2020-09-20 19:49:27.170  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-cb5zd with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:49:27.176665168 +0000 UTC] 2020-09-20 19:49:27.176  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:49:27.327551176 +0000 UTC] 2020-09-20 19:49:27.315  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@532760d8: startup date [Sun Sep 20 19:49:27 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:49:30.791687704 +0000 UTC] 2020-09-20 19:49:30.791  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:49:30.863456292 +0000 UTC] 2020-09-20 19:49:30.863  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:49:30.863849834 +0000 UTC] 2020-09-20 19:49:30.863  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:49:30.889797738 +0000 UTC] 2020-09-20 19:49:30.889  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:49:31.07927357 +0000 UTC] 2020-09-20 19:49:31.078  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:49:31.079621972 +0000 UTC] 2020-09-20 19:49:31.079  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3789 ms\n
+[2020-09-20 19:49:31.402490749 +0000 UTC] 2020-09-20 19:49:31.401  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:49:31.412063965 +0000 UTC] 2020-09-20 19:49:31.411  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 20:07:01.156401048 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:07:01.156Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 20:08:39.216317468 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:08:39.212Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 20:08:39.216365865 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:08:39.215Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 20:08:40.48042182 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:08:40.480Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":1.378763423}\n
+[2020-09-20 20:07:04.466301728 +0000 UTC] \n
+[2020-09-20 20:07:04.469447438 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 20:07:04.469926105 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 20:07:04.470184304 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 20:07:04.470372995 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 20:07:04.470445082 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 20:07:04.470569557 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 20:07:04.472988706 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 20:07:04.481783782 +0000 UTC] \n
+[2020-09-20 20:07:05.283943394 +0000 UTC] 2020-09-20 20:07:05.248  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-ch85x with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 20:07:05.287227659 +0000 UTC] 2020-09-20 20:07:05.286  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 20:07:05.757426094 +0000 UTC] 2020-09-20 20:07:05.751  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6073f712: startup date [Sun Sep 20 20:07:05 GMT 2020]; root of context hierarchy\n
+[2020-09-20 20:07:15.015918433 +0000 UTC] 2020-09-20 20:07:15.014  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 20:07:15.24889262 +0000 UTC] 2020-09-20 20:07:15.245  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 20:07:15.249603222 +0000 UTC] 2020-09-20 20:07:15.249  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 20:07:15.387360195 +0000 UTC] 2020-09-20 20:07:15.386  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 20:07:16.108695526 +0000 UTC] 2020-09-20 20:07:16.107  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 20:07:16.109851805 +0000 UTC] 2020-09-20 20:07:16.109  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10418 ms\n
+[2020-09-20 20:07:17.241406276 +0000 UTC] 2020-09-20 20:07:17.240  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 20:07:17.269735177 +0000 UTC] 2020-09-20 20:07:17.268  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:59:04.365398026 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:59:04.362Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 20:01:05.65564899 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:01:05.655Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 20:01:05.655687344 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:01:05.655Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 20:01:06.366620355 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:01:06.366Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":0.765125301}\n
+[2020-09-20 19:59:07.773198462 +0000 UTC] \n
+[2020-09-20 19:59:07.773463979 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:59:07.773717964 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:59:07.774020994 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:59:07.774308786 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:59:07.774742255 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:59:07.774958772 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:59:07.778170606 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:59:07.778306569 +0000 UTC] \n
+[2020-09-20 19:59:08.508375526 +0000 UTC] 2020-09-20 19:59:08.504  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-dgnrp with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:59:08.509649013 +0000 UTC] 2020-09-20 19:59:08.509  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:59:08.833089934 +0000 UTC] 2020-09-20 19:59:08.832  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6073f712: startup date [Sun Sep 20 19:59:08 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:59:15.74117605 +0000 UTC] 2020-09-20 19:59:15.740  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:59:16.045131813 +0000 UTC] 2020-09-20 19:59:16.037  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:59:16.046359018 +0000 UTC] 2020-09-20 19:59:16.045  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:59:16.133600557 +0000 UTC] 2020-09-20 19:59:16.132  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:59:16.529923033 +0000 UTC] 2020-09-20 19:59:16.524  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:59:16.531286632 +0000 UTC] 2020-09-20 19:59:16.530  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7715 ms\n
+[2020-09-20 19:59:17.312522799 +0000 UTC] 2020-09-20 19:59:17.311  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:59:17.326886294 +0000 UTC] 2020-09-20 19:59:17.326  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 18:54:49.063033064 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T18:54:49.048Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:39:35.351407272 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:39:35.350Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:39:35.351493666 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:39:35.351Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:39:36.016053468 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:39:36.015Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":0.75604647}\n
+[2020-09-20 18:54:57.92242085 +0000 UTC] \n
+[2020-09-20 18:54:57.923952261 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 18:54:57.92417029 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 18:54:57.92434997 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 18:54:57.924502859 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 18:54:57.924876232 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 18:54:57.925073735 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 18:54:57.929623014 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 18:54:57.930186947 +0000 UTC] \n
+[2020-09-20 18:54:58.89148209 +0000 UTC] 2020-09-20 18:54:58.886  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-djj5q with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 18:54:58.917940231 +0000 UTC] 2020-09-20 18:54:58.917  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 18:54:59.628376426 +0000 UTC] 2020-09-20 18:54:59.627  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3cd1f1c8: startup date [Sun Sep 20 18:54:59 GMT 2020]; root of context hierarchy\n
+[2020-09-20 18:55:11.299723492 +0000 UTC] 2020-09-20 18:55:11.295  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 18:55:11.421835102 +0000 UTC] 2020-09-20 18:55:11.421  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 18:55:11.423278714 +0000 UTC] 2020-09-20 18:55:11.422  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 18:55:11.467614281 +0000 UTC] 2020-09-20 18:55:11.466  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 18:55:11.795454516 +0000 UTC] 2020-09-20 18:55:11.794  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 18:55:11.796522121 +0000 UTC] 2020-09-20 18:55:11.795  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 12202 ms\n
+[2020-09-20 18:55:12.316462611 +0000 UTC] 2020-09-20 18:55:12.316  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 18:55:12.325906525 +0000 UTC] 2020-09-20 18:55:12.325  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:55:49.606867834 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:49.606Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:56:40.886429259 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:56:40.886Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:56:40.886544985 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:56:40.886Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:56:41.577170252 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:56:41.576Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":0.844150949}\n
+[2020-09-20 19:55:51.798838463 +0000 UTC] \n
+[2020-09-20 19:55:51.798971742 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:55:51.798979725 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:55:51.798985121 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:55:51.798990289 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:55:51.798995762 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:55:51.799000843 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:55:51.810740723 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:55:51.810795893 +0000 UTC] \n
+[2020-09-20 19:55:52.417584131 +0000 UTC] 2020-09-20 19:55:52.397  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-dld9s with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:55:52.435715892 +0000 UTC] 2020-09-20 19:55:52.433  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:55:53.038410418 +0000 UTC] 2020-09-20 19:55:53.037  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@57fa26b7: startup date [Sun Sep 20 19:55:52 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:56:00.713490175 +0000 UTC] 2020-09-20 19:56:00.713  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:56:00.872840502 +0000 UTC] 2020-09-20 19:56:00.872  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:56:00.875287842 +0000 UTC] 2020-09-20 19:56:00.874  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:56:00.901460499 +0000 UTC] 2020-09-20 19:56:00.900  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:56:01.174496183 +0000 UTC] 2020-09-20 19:56:01.174  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:56:01.180339734 +0000 UTC] 2020-09-20 19:56:01.179  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8211 ms\n
+[2020-09-20 19:56:02.002287418 +0000 UTC] 2020-09-20 19:56:02.001  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:56:02.013463575 +0000 UTC] 2020-09-20 19:56:02.012  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:55:31.048608202 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:31.048Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:55:48.100588091 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:48.100Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:55:48.100689334 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:48.100Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:55:48.708931251 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:48.708Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":0.671892703}\n
+[2020-09-20 19:55:32.586976968 +0000 UTC] \n
+[2020-09-20 19:55:32.587383895 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:55:32.587781508 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:55:32.588017435 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:55:32.588219617 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:55:32.588552003 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:55:32.588742419 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:55:32.590438407 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:55:32.590629866 +0000 UTC] \n
+[2020-09-20 19:55:32.946459443 +0000 UTC] 2020-09-20 19:55:32.941  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-f7ftz with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:55:32.952943086 +0000 UTC] 2020-09-20 19:55:32.952  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:55:33.15819177 +0000 UTC] 2020-09-20 19:55:33.157  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@532760d8: startup date [Sun Sep 20 19:55:33 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:55:37.046194124 +0000 UTC] 2020-09-20 19:55:37.045  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:55:37.110045047 +0000 UTC] 2020-09-20 19:55:37.109  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:55:37.110745623 +0000 UTC] 2020-09-20 19:55:37.110  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:55:37.13796946 +0000 UTC] 2020-09-20 19:55:37.137  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:55:37.321866693 +0000 UTC] 2020-09-20 19:55:37.321  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:55:37.322137841 +0000 UTC] 2020-09-20 19:55:37.321  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4180 ms\n
+[2020-09-20 19:55:37.528525402 +0000 UTC] 2020-09-20 19:55:37.528  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:55:37.535001481 +0000 UTC] 2020-09-20 19:55:37.534  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 20:05:13.379831191 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:05:13.379Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 20:07:00.228272012 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:07:00.227Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 20:07:00.228311867 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:07:00.228Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 20:07:00.911919546 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:07:00.911Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":0.743207344}\n
+[2020-09-20 20:05:15.079456849 +0000 UTC] \n
+[2020-09-20 20:05:15.082628191 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 20:05:15.082856674 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 20:05:15.083076803 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 20:05:15.083307164 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 20:05:15.083519441 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 20:05:15.083704992 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 20:05:15.088595418 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 20:05:15.088789568 +0000 UTC] \n
+[2020-09-20 20:05:15.435942148 +0000 UTC] 2020-09-20 20:05:15.428  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-fcnrc with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 20:05:15.443143931 +0000 UTC] 2020-09-20 20:05:15.442  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 20:05:15.662076782 +0000 UTC] 2020-09-20 20:05:15.657  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4141d797: startup date [Sun Sep 20 20:05:15 GMT 2020]; root of context hierarchy\n
+[2020-09-20 20:05:18.962136369 +0000 UTC] 2020-09-20 20:05:18.961  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 20:05:19.044202615 +0000 UTC] 2020-09-20 20:05:19.043  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 20:05:19.044947593 +0000 UTC] 2020-09-20 20:05:19.044  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 20:05:19.077213218 +0000 UTC] 2020-09-20 20:05:19.076  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 20:05:19.234018165 +0000 UTC] 2020-09-20 20:05:19.233  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 20:05:19.234556734 +0000 UTC] 2020-09-20 20:05:19.234  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3584 ms\n
+[2020-09-20 20:05:19.552181733 +0000 UTC] 2020-09-20 20:05:19.551  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 20:05:19.559726545 +0000 UTC] 2020-09-20 20:05:19.559  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 18:54:48.567810346 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T18:54:48.564Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:39:36.345151281 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:39:36.344Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:39:36.345305937 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:39:36.344Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:39:39.104188003 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:39:39.103Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":2.872855966}\n
+[2020-09-20 18:54:57.769214994 +0000 UTC] \n
+[2020-09-20 18:54:57.769307528 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 18:54:57.769316274 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 18:54:57.769321696 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 18:54:57.76932657 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 18:54:57.769422839 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 18:54:57.769431922 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 18:54:57.780856989 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 18:54:57.780903189 +0000 UTC] \n
+[2020-09-20 18:54:59.341493449 +0000 UTC] 2020-09-20 18:54:59.336  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-g24lx with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 18:54:59.364261941 +0000 UTC] 2020-09-20 18:54:59.363  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 18:55:00.035114194 +0000 UTC] 2020-09-20 18:55:00.032  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@64b8f8f4: startup date [Sun Sep 20 18:55:00 GMT 2020]; root of context hierarchy\n
+[2020-09-20 18:55:10.303793868 +0000 UTC] 2020-09-20 18:55:10.303  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 18:55:10.584124279 +0000 UTC] 2020-09-20 18:55:10.583  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 18:55:10.59553938 +0000 UTC] 2020-09-20 18:55:10.595  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 18:55:10.697148045 +0000 UTC] 2020-09-20 18:55:10.686  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 18:55:11.538980056 +0000 UTC] 2020-09-20 18:55:11.526  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 18:55:11.542318517 +0000 UTC] 2020-09-20 18:55:11.541  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 11516 ms\n
+[2020-09-20 18:55:12.860812843 +0000 UTC] 2020-09-20 18:55:12.860  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 18:55:12.870944898 +0000 UTC] 2020-09-20 18:55:12.870  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:52:23.944283058 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:52:23.943Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:55:29.52492918 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:29.524Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:55:29.526589026 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:29.526Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:55:30.203597928 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:30.203Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":0.749227231}\n
+[2020-09-20 19:52:26.163823375 +0000 UTC] \n
+[2020-09-20 19:52:26.163887185 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:52:26.16389417 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:52:26.163978131 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:52:26.163999774 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:52:26.164004951 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:52:26.164009436 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:52:26.168772483 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:52:26.168832823 +0000 UTC] \n
+[2020-09-20 19:52:26.585154185 +0000 UTC] 2020-09-20 19:52:26.581  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-g87pp with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:52:26.588082926 +0000 UTC] 2020-09-20 19:52:26.587  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:52:26.760965582 +0000 UTC] 2020-09-20 19:52:26.760  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7cef4e59: startup date [Sun Sep 20 19:52:26 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:52:30.832841203 +0000 UTC] 2020-09-20 19:52:30.832  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:52:30.911274804 +0000 UTC] 2020-09-20 19:52:30.910  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:52:30.912172679 +0000 UTC] 2020-09-20 19:52:30.911  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:52:30.978817096 +0000 UTC] 2020-09-20 19:52:30.977  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:52:31.193996364 +0000 UTC] 2020-09-20 19:52:31.193  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:52:31.194844413 +0000 UTC] 2020-09-20 19:52:31.194  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4450 ms\n
+[2020-09-20 19:52:31.554289741 +0000 UTC] 2020-09-20 19:52:31.553  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:52:31.567086153 +0000 UTC] 2020-09-20 19:52:31.566  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 18:54:51.254484513 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T18:54:51.252Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:42:16.925361981 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:42:16.924Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:42:16.925678206 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:42:16.925Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:42:18.228786066 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:42:18.228Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":1.381400359}\n
+[2020-09-20 18:55:02.195971635 +0000 UTC] \n
+[2020-09-20 18:55:02.196327882 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 18:55:02.196525511 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 18:55:02.196702322 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 18:55:02.196874389 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 18:55:02.197034857 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 18:55:02.197211358 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 18:55:02.205261168 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 18:55:02.209813307 +0000 UTC] \n
+[2020-09-20 18:55:03.801719473 +0000 UTC] 2020-09-20 18:55:03.743  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-gjvl5 with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 18:55:03.839656558 +0000 UTC] 2020-09-20 18:55:03.836  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 18:55:04.362167087 +0000 UTC] 2020-09-20 18:55:04.361  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5f8ed237: startup date [Sun Sep 20 18:55:04 GMT 2020]; root of context hierarchy\n
+[2020-09-20 18:55:19.64295016 +0000 UTC] 2020-09-20 18:55:19.642  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 18:55:19.994859813 +0000 UTC] 2020-09-20 18:55:19.989  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 18:55:19.996835664 +0000 UTC] 2020-09-20 18:55:19.995  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 18:55:20.239000308 +0000 UTC] 2020-09-20 18:55:20.201  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 18:55:21.385924646 +0000 UTC] 2020-09-20 18:55:21.369  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 18:55:21.387497995 +0000 UTC] 2020-09-20 18:55:21.386  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 17066 ms\n
+[2020-09-20 18:55:23.240100656 +0000 UTC] 2020-09-20 18:55:23.225  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 18:55:23.34945451 +0000 UTC] 2020-09-20 18:55:23.349  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:59:05.77695955 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:59:05.776Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 20:01:09.131451046 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:01:09.131Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 20:01:09.131491973 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:01:09.131Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 20:01:10.067010908 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:01:10.066Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":1.013670105}\n
+[2020-09-20 19:59:09.110355491 +0000 UTC] \n
+[2020-09-20 19:59:09.110439084 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:59:09.110447188 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:59:09.11045217 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:59:09.110457373 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:59:09.110461902 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:59:09.11047289 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:59:09.116215739 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:59:09.116428712 +0000 UTC] \n
+[2020-09-20 19:59:09.741273298 +0000 UTC] 2020-09-20 19:59:09.733  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-hp9lg with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:59:09.743037158 +0000 UTC] 2020-09-20 19:59:09.742  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:59:10.237832572 +0000 UTC] 2020-09-20 19:59:10.237  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@277c0f21: startup date [Sun Sep 20 19:59:10 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:59:17.646973461 +0000 UTC] 2020-09-20 19:59:17.646  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:59:17.745854682 +0000 UTC] 2020-09-20 19:59:17.745  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:59:17.746778654 +0000 UTC] 2020-09-20 19:59:17.746  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:59:17.792873312 +0000 UTC] 2020-09-20 19:59:17.792  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:59:18.331786238 +0000 UTC] 2020-09-20 19:59:18.331  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:59:18.33818676 +0000 UTC] 2020-09-20 19:59:18.337  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8121 ms\n
+[2020-09-20 19:59:19.084424231 +0000 UTC] 2020-09-20 19:59:19.083  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:59:19.11065144 +0000 UTC] 2020-09-20 19:59:19.110  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:49:22.792359254 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:49:22.791Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:49:25.172207138 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:49:25.171Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:49:25.173250731 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:49:25.173Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:49:25.173941963 +0000 UTC] {\"level\":\"error\",\"ts\":\"2020-09-20T19:49:25.173Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:642\",\"msg\":\"error connecting to function environment pod for specialization request, retrying\",\"error\":\"Post http://127.0.0.1:8888/v2/specialize: dial tcp 127.0.0.1:8888: connect: connection refused\",\"stacktrace\":\"github.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializePod\\n\\t/go/src/pkg/fetcher/fetcher.go:642\\ngithub.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializeHandler\\n\\t/go/src/pkg/fetcher/fetcher.go:197\\nnet/http.HandlerFunc.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:1995\\nnet/http.(*ServeMux).ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2375\\ngo.opencensus.io/plugin/ochttp.(*Handler).ServeHTTP\\n\\t/go/pkg/mod/go.opencensus.io@v0.22.0/plugin/ochttp/server.go:86\\nnet/http.serverHandler.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2774\\nnet/http.(*conn).serve\\n\\t/usr/local/go/src/net/http/server.go:1878\"}\n
+[2020-09-20 19:49:26.175183538 +0000 UTC] {\"level\":\"error\",\"ts\":\"2020-09-20T19:49:26.174Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:642\",\"msg\":\"error connecting to function environment pod for specialization request, retrying\",\"error\":\"Post http://127.0.0.1:8888/v2/specialize: dial tcp 127.0.0.1:8888: connect: connection refused\",\"stacktrace\":\"github.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializePod\\n\\t/go/src/pkg/fetcher/fetcher.go:642\\ngithub.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializeHandler\\n\\t/go/src/pkg/fetcher/fetcher.go:197\\nnet/http.HandlerFunc.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:1995\\nnet/http.(*ServeMux).ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2375\\ngo.opencensus.io/plugin/ochttp.(*Handler).ServeHTTP\\n\\t/go/pkg/mod/go.opencensus.io@v0.22.0/plugin/ochttp/server.go:86\\nnet/http.serverHandler.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2774\\nnet/http.(*conn).serve\\n\\t/usr/local/go/src/net/http/server.go:1878\"}\n
+[2020-09-20 19:49:28.184228691 +0000 UTC] {\"level\":\"error\",\"ts\":\"2020-09-20T19:49:28.183Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:642\",\"msg\":\"error connecting to function environment pod for specialization request, retrying\",\"error\":\"Post http://127.0.0.1:8888/v2/specialize: dial tcp 127.0.0.1:8888: connect: connection refused\",\"stacktrace\":\"github.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializePod\\n\\t/go/src/pkg/fetcher/fetcher.go:642\\ngithub.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializeHandler\\n\\t/go/src/pkg/fetcher/fetcher.go:197\\nnet/http.HandlerFunc.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:1995\\nnet/http.(*ServeMux).ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2375\\ngo.opencensus.io/plugin/ochttp.(*Handler).ServeHTTP\\n\\t/go/pkg/mod/go.opencensus.io@v0.22.0/plugin/ochttp/server.go:86\\nnet/http.serverHandler.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2774\\nnet/http.(*conn).serve\\n\\t/usr/local/go/src/net/http/server.go:1878\"}\n
+[2020-09-20 19:49:31.190848365 +0000 UTC] {\"level\":\"error\",\"ts\":\"2020-09-20T19:49:31.190Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:642\",\"msg\":\"error connecting to function environment pod for specialization request, retrying\",\"error\":\"Post http://127.0.0.1:8888/v2/specialize: dial tcp 127.0.0.1:8888: connect: connection refused\",\"stacktrace\":\"github.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializePod\\n\\t/go/src/pkg/fetcher/fetcher.go:642\\ngithub.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializeHandler\\n\\t/go/src/pkg/fetcher/fetcher.go:197\\nnet/http.HandlerFunc.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:1995\\nnet/http.(*ServeMux).ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2375\\ngo.opencensus.io/plugin/ochttp.(*Handler).ServeHTTP\\n\\t/go/pkg/mod/go.opencensus.io@v0.22.0/plugin/ochttp/server.go:86\\nnet/http.serverHandler.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2774\\nnet/http.(*conn).serve\\n\\t/usr/local/go/src/net/http/server.go:1878\"}\n
+[2020-09-20 19:49:35.191929751 +0000 UTC] {\"level\":\"error\",\"ts\":\"2020-09-20T19:49:35.191Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:642\",\"msg\":\"error connecting to function environment pod for specialization request, retrying\",\"error\":\"Post http://127.0.0.1:8888/v2/specialize: dial tcp 127.0.0.1:8888: connect: connection refused\",\"stacktrace\":\"github.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializePod\\n\\t/go/src/pkg/fetcher/fetcher.go:642\\ngithub.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializeHandler\\n\\t/go/src/pkg/fetcher/fetcher.go:197\\nnet/http.HandlerFunc.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:1995\\nnet/http.(*ServeMux).ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2375\\ngo.opencensus.io/plugin/ochttp.(*Handler).ServeHTTP\\n\\t/go/pkg/mod/go.opencensus.io@v0.22.0/plugin/ochttp/server.go:86\\nnet/http.serverHandler.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2774\\nnet/http.(*conn).serve\\n\\t/usr/local/go/src/net/http/server.go:1878\"}\n
+[2020-09-20 19:49:40.192910878 +0000 UTC] {\"level\":\"error\",\"ts\":\"2020-09-20T19:49:40.192Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:642\",\"msg\":\"error connecting to function environment pod for specialization request, retrying\",\"error\":\"Post http://127.0.0.1:8888/v2/specialize: dial tcp 127.0.0.1:8888: connect: connection refused\",\"stacktrace\":\"github.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializePod\\n\\t/go/src/pkg/fetcher/fetcher.go:642\\ngithub.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializeHandler\\n\\t/go/src/pkg/fetcher/fetcher.go:197\\nnet/http.HandlerFunc.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:1995\\nnet/http.(*ServeMux).ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2375\\ngo.opencensus.io/plugin/ochttp.(*Handler).ServeHTTP\\n\\t/go/pkg/mod/go.opencensus.io@v0.22.0/plugin/ochttp/server.go:86\\nnet/http.serverHandler.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2774\\nnet/http.(*conn).serve\\n\\t/usr/local/go/src/net/http/server.go:1878\"}\n
+[2020-09-20 19:49:40.928781627 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:49:40.928Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":15.8382731}\n
+[2020-09-20 19:49:24.46893898 +0000 UTC] \n
+[2020-09-20 19:49:24.469101779 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:49:24.469175963 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:49:24.469185401 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:49:24.469235137 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:49:24.46927457 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:49:24.469282181 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:49:24.47096015 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:49:24.471003111 +0000 UTC] \n
+[2020-09-20 19:49:24.802869588 +0000 UTC] 2020-09-20 19:49:24.791  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-j96z9 with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:49:24.804588348 +0000 UTC] 2020-09-20 19:49:24.804  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:49:24.998468365 +0000 UTC] 2020-09-20 19:49:24.997  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7a46a697: startup date [Sun Sep 20 19:49:24 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:49:31.683981814 +0000 UTC] 2020-09-20 19:49:31.683  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:49:31.806259643 +0000 UTC] 2020-09-20 19:49:31.800  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:49:31.806456189 +0000 UTC] 2020-09-20 19:49:31.801  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:49:31.861759252 +0000 UTC] 2020-09-20 19:49:31.861  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:49:32.252351632 +0000 UTC] 2020-09-20 19:49:32.251  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:49:32.260209568 +0000 UTC] 2020-09-20 19:49:32.259  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7281 ms\n
+[2020-09-20 19:49:32.753049258 +0000 UTC] 2020-09-20 19:49:32.752  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:49:32.760413102 +0000 UTC] 2020-09-20 19:49:32.759  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:56:45.575076203 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:56:45.574Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:59:03.571681624 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:59:03.571Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:59:03.571733683 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:59:03.571Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:59:04.205049977 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:59:04.204Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":0.765289559}\n
+[2020-09-20 19:56:49.796902652 +0000 UTC] \n
+[2020-09-20 19:56:49.80278373 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:56:49.803284162 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:56:49.80351783 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:56:49.803727149 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:56:49.803921973 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:56:49.804128746 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:56:49.808233709 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:56:49.808394452 +0000 UTC] \n
+[2020-09-20 19:56:50.23777569 +0000 UTC] 2020-09-20 19:56:50.231  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-jmhwj with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:56:50.276018371 +0000 UTC] 2020-09-20 19:56:50.275  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:56:50.507859639 +0000 UTC] 2020-09-20 19:56:50.504  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@57fa26b7: startup date [Sun Sep 20 19:56:50 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:56:56.241380168 +0000 UTC] 2020-09-20 19:56:56.240  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:56:56.343975393 +0000 UTC] 2020-09-20 19:56:56.343  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:56:56.345105733 +0000 UTC] 2020-09-20 19:56:56.344  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:56:56.402552391 +0000 UTC] 2020-09-20 19:56:56.401  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:56:56.823078246 +0000 UTC] 2020-09-20 19:56:56.822  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:56:56.823737164 +0000 UTC] 2020-09-20 19:56:56.823  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6337 ms\n
+[2020-09-20 19:56:57.408291491 +0000 UTC] 2020-09-20 19:56:57.407  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:56:57.421060555 +0000 UTC] 2020-09-20 19:56:57.420  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 20:08:37.934397821 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:08:37.932Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 20:08:41.328563648 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:08:41.328Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 20:08:41.328622585 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:08:41.328Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 20:08:41.342402832 +0000 UTC] {\"level\":\"error\",\"ts\":\"2020-09-20T20:08:41.332Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:642\",\"msg\":\"error connecting to function environment pod for specialization request, retrying\",\"error\":\"Post http://127.0.0.1:8888/v2/specialize: dial tcp 127.0.0.1:8888: connect: connection refused\",\"stacktrace\":\"github.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializePod\\n\\t/go/src/pkg/fetcher/fetcher.go:642\\ngithub.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializeHandler\\n\\t/go/src/pkg/fetcher/fetcher.go:197\\nnet/http.HandlerFunc.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:1995\\nnet/http.(*ServeMux).ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2375\\ngo.opencensus.io/plugin/ochttp.(*Handler).ServeHTTP\\n\\t/go/pkg/mod/go.opencensus.io@v0.22.0/plugin/ochttp/server.go:86\\nnet/http.serverHandler.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2774\\nnet/http.(*conn).serve\\n\\t/usr/local/go/src/net/http/server.go:1878\"}\n
+[2020-09-20 20:08:42.347707885 +0000 UTC] {\"level\":\"error\",\"ts\":\"2020-09-20T20:08:42.345Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:642\",\"msg\":\"error connecting to function environment pod for specialization request, retrying\",\"error\":\"Post http://127.0.0.1:8888/v2/specialize: dial tcp 127.0.0.1:8888: connect: connection refused\",\"stacktrace\":\"github.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializePod\\n\\t/go/src/pkg/fetcher/fetcher.go:642\\ngithub.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializeHandler\\n\\t/go/src/pkg/fetcher/fetcher.go:197\\nnet/http.HandlerFunc.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:1995\\nnet/http.(*ServeMux).ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2375\\ngo.opencensus.io/plugin/ochttp.(*Handler).ServeHTTP\\n\\t/go/pkg/mod/go.opencensus.io@v0.22.0/plugin/ochttp/server.go:86\\nnet/http.serverHandler.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2774\\nnet/http.(*conn).serve\\n\\t/usr/local/go/src/net/http/server.go:1878\"}\n
+[2020-09-20 20:08:44.347110171 +0000 UTC] {\"level\":\"error\",\"ts\":\"2020-09-20T20:08:44.346Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:642\",\"msg\":\"error connecting to function environment pod for specialization request, retrying\",\"error\":\"Post http://127.0.0.1:8888/v2/specialize: dial tcp 127.0.0.1:8888: connect: connection refused\",\"stacktrace\":\"github.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializePod\\n\\t/go/src/pkg/fetcher/fetcher.go:642\\ngithub.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializeHandler\\n\\t/go/src/pkg/fetcher/fetcher.go:197\\nnet/http.HandlerFunc.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:1995\\nnet/http.(*ServeMux).ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2375\\ngo.opencensus.io/plugin/ochttp.(*Handler).ServeHTTP\\n\\t/go/pkg/mod/go.opencensus.io@v0.22.0/plugin/ochttp/server.go:86\\nnet/http.serverHandler.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2774\\nnet/http.(*conn).serve\\n\\t/usr/local/go/src/net/http/server.go:1878\"}\n
+[2020-09-20 20:08:47.348934147 +0000 UTC] {\"level\":\"error\",\"ts\":\"2020-09-20T20:08:47.348Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:642\",\"msg\":\"error connecting to function environment pod for specialization request, retrying\",\"error\":\"Post http://127.0.0.1:8888/v2/specialize: dial tcp 127.0.0.1:8888: connect: connection refused\",\"stacktrace\":\"github.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializePod\\n\\t/go/src/pkg/fetcher/fetcher.go:642\\ngithub.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializeHandler\\n\\t/go/src/pkg/fetcher/fetcher.go:197\\nnet/http.HandlerFunc.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:1995\\nnet/http.(*ServeMux).ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2375\\ngo.opencensus.io/plugin/ochttp.(*Handler).ServeHTTP\\n\\t/go/pkg/mod/go.opencensus.io@v0.22.0/plugin/ochttp/server.go:86\\nnet/http.serverHandler.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2774\\nnet/http.(*conn).serve\\n\\t/usr/local/go/src/net/http/server.go:1878\"}\n
+[2020-09-20 20:08:51.34993917 +0000 UTC] {\"level\":\"error\",\"ts\":\"2020-09-20T20:08:51.349Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:642\",\"msg\":\"error connecting to function environment pod for specialization request, retrying\",\"error\":\"Post http://127.0.0.1:8888/v2/specialize: dial tcp 127.0.0.1:8888: connect: connection refused\",\"stacktrace\":\"github.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializePod\\n\\t/go/src/pkg/fetcher/fetcher.go:642\\ngithub.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializeHandler\\n\\t/go/src/pkg/fetcher/fetcher.go:197\\nnet/http.HandlerFunc.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:1995\\nnet/http.(*ServeMux).ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2375\\ngo.opencensus.io/plugin/ochttp.(*Handler).ServeHTTP\\n\\t/go/pkg/mod/go.opencensus.io@v0.22.0/plugin/ochttp/server.go:86\\nnet/http.serverHandler.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2774\\nnet/http.(*conn).serve\\n\\t/usr/local/go/src/net/http/server.go:1878\"}\n
+[2020-09-20 20:08:56.357716908 +0000 UTC] {\"level\":\"error\",\"ts\":\"2020-09-20T20:08:56.350Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:642\",\"msg\":\"error connecting to function environment pod for specialization request, retrying\",\"error\":\"Post http://127.0.0.1:8888/v2/specialize: dial tcp 127.0.0.1:8888: connect: connection refused\",\"stacktrace\":\"github.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializePod\\n\\t/go/src/pkg/fetcher/fetcher.go:642\\ngithub.com/fission/fission/pkg/fetcher.(*Fetcher).SpecializeHandler\\n\\t/go/src/pkg/fetcher/fetcher.go:197\\nnet/http.HandlerFunc.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:1995\\nnet/http.(*ServeMux).ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2375\\ngo.opencensus.io/plugin/ochttp.(*Handler).ServeHTTP\\n\\t/go/pkg/mod/go.opencensus.io@v0.22.0/plugin/ochttp/server.go:86\\nnet/http.serverHandler.ServeHTTP\\n\\t/usr/local/go/src/net/http/server.go:2774\\nnet/http.(*conn).serve\\n\\t/usr/local/go/src/net/http/server.go:1878\"}\n
+[2020-09-20 20:08:56.96906315 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:08:56.968Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":15.82308004}\n
+[2020-09-20 20:08:40.050770392 +0000 UTC] \n
+[2020-09-20 20:08:40.050834964 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 20:08:40.050842229 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 20:08:40.050847325 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 20:08:40.050857991 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 20:08:40.050862763 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 20:08:40.050867777 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 20:08:40.050872821 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 20:08:40.050878038 +0000 UTC] \n
+[2020-09-20 20:08:40.670823217 +0000 UTC] 2020-09-20 20:08:40.659  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-kfztk with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 20:08:40.672092224 +0000 UTC] 2020-09-20 20:08:40.671  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 20:08:41.081746682 +0000 UTC] 2020-09-20 20:08:41.079  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c3e4790: startup date [Sun Sep 20 20:08:41 GMT 2020]; root of context hierarchy\n
+[2020-09-20 20:08:48.14369985 +0000 UTC] 2020-09-20 20:08:48.143  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 20:08:48.275472151 +0000 UTC] 2020-09-20 20:08:48.274  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 20:08:48.276995986 +0000 UTC] 2020-09-20 20:08:48.276  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 20:08:48.305364236 +0000 UTC] 2020-09-20 20:08:48.304  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 20:08:48.515727607 +0000 UTC] 2020-09-20 20:08:48.514  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 20:08:48.515771961 +0000 UTC] 2020-09-20 20:08:48.514  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7475 ms\n
+[2020-09-20 20:08:49.241281825 +0000 UTC] 2020-09-20 20:08:49.240  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 20:08:49.270986774 +0000 UTC] 2020-09-20 20:08:49.270  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:42:19.191766932 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:42:19.191Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:52:21.138425689 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:52:21.138Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:52:21.138464869 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:52:21.138Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:52:21.855900337 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:52:21.855Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":0.841977782}\n
+[2020-09-20 19:42:20.947660133 +0000 UTC] \n
+[2020-09-20 19:42:20.951306327 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:42:20.951414871 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:42:20.95143642 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:42:20.951442004 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:42:20.95144707 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:42:20.951451632 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:42:20.954988768 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:42:20.955035544 +0000 UTC] \n
+[2020-09-20 19:42:21.277423507 +0000 UTC] 2020-09-20 19:42:21.273  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-kn28n with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:42:21.291434906 +0000 UTC] 2020-09-20 19:42:21.290  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:42:21.470372931 +0000 UTC] 2020-09-20 19:42:21.469  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@277c0f21: startup date [Sun Sep 20 19:42:21 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:42:25.067244261 +0000 UTC] 2020-09-20 19:42:25.066  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:42:25.130337397 +0000 UTC] 2020-09-20 19:42:25.129  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:42:25.131229602 +0000 UTC] 2020-09-20 19:42:25.130  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:42:25.16435056 +0000 UTC] 2020-09-20 19:42:25.163  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:42:25.3653393 +0000 UTC] 2020-09-20 19:42:25.364  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:42:25.366056315 +0000 UTC] 2020-09-20 19:42:25.365  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3908 ms\n
+[2020-09-20 19:42:25.737034354 +0000 UTC] 2020-09-20 19:42:25.736  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:42:25.744455186 +0000 UTC] 2020-09-20 19:42:25.744  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:39:38.612166285 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:39:38.611Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:42:18.787103306 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:42:18.786Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:42:18.78734419 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:42:18.787Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:42:20.812906337 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:42:20.812Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":2.12850005}\n
+[2020-09-20 19:39:41.774641208 +0000 UTC] \n
+[2020-09-20 19:39:41.775811327 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:39:41.775942821 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:39:41.776053588 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:39:41.776153609 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:39:41.776217557 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:39:41.776325717 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:39:41.77815854 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:39:41.778238754 +0000 UTC] \n
+[2020-09-20 19:39:42.122992559 +0000 UTC] 2020-09-20 19:39:42.117  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-n7v2r with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:39:42.133815548 +0000 UTC] 2020-09-20 19:39:42.133  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:39:42.314083907 +0000 UTC] 2020-09-20 19:39:42.313  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@57fa26b7: startup date [Sun Sep 20 19:39:42 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:39:45.791752769 +0000 UTC] 2020-09-20 19:39:45.791  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:39:45.862383764 +0000 UTC] 2020-09-20 19:39:45.861  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:39:45.863077126 +0000 UTC] 2020-09-20 19:39:45.862  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:39:45.894154731 +0000 UTC] 2020-09-20 19:39:45.893  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:39:46.055210811 +0000 UTC] 2020-09-20 19:39:46.054  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:39:46.055722686 +0000 UTC] 2020-09-20 19:39:46.055  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3754 ms\n
+[2020-09-20 19:39:46.310693248 +0000 UTC] 2020-09-20 19:39:46.310  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:39:46.3174671 +0000 UTC] 2020-09-20 19:39:46.317  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 20:07:02.57779828 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:07:02.577Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 20:08:37.510302298 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:08:37.510Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 20:08:37.51049142 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:08:37.510Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 20:08:38.844677896 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:08:38.791Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":1.38643121}\n
+[2020-09-20 20:07:05.947977786 +0000 UTC] \n
+[2020-09-20 20:07:05.948326703 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 20:07:05.948549399 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 20:07:05.948734613 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 20:07:05.948926383 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 20:07:05.949102696 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 20:07:05.949296433 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 20:07:05.95087427 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 20:07:05.951353355 +0000 UTC] \n
+[2020-09-20 20:07:06.677833579 +0000 UTC] 2020-09-20 20:07:06.645  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-psc7j with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 20:07:06.682889249 +0000 UTC] 2020-09-20 20:07:06.682  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 20:07:07.318109711 +0000 UTC] 2020-09-20 20:07:07.317  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@75828a0f: startup date [Sun Sep 20 20:07:07 GMT 2020]; root of context hierarchy\n
+[2020-09-20 20:07:16.348934671 +0000 UTC] 2020-09-20 20:07:16.348  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 20:07:16.614858571 +0000 UTC] 2020-09-20 20:07:16.600  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 20:07:16.615458851 +0000 UTC] 2020-09-20 20:07:16.615  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 20:07:16.673454494 +0000 UTC] 2020-09-20 20:07:16.672  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 20:07:17.35060998 +0000 UTC] 2020-09-20 20:07:17.350  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 20:07:17.352081172 +0000 UTC] 2020-09-20 20:07:17.351  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10068 ms\n
+[2020-09-20 20:07:18.646223134 +0000 UTC] 2020-09-20 20:07:18.645  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 20:07:18.739718128 +0000 UTC] 2020-09-20 20:07:18.739  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 20:05:15.621949828 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:05:15.621Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 20:06:57.556462566 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:06:57.556Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 20:06:57.556506309 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:06:57.556Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 20:06:58.319972504 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:06:58.319Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":0.818642143}\n
+[2020-09-20 20:05:19.410962752 +0000 UTC] \n
+[2020-09-20 20:05:19.411395138 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 20:05:19.411757106 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 20:05:19.41385329 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 20:05:19.414154578 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 20:05:19.414338231 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 20:05:19.414499622 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 20:05:19.416425017 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 20:05:19.416641532 +0000 UTC] \n
+[2020-09-20 20:05:19.73123242 +0000 UTC] 2020-09-20 20:05:19.718  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-qdrhf with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 20:05:19.734936828 +0000 UTC] 2020-09-20 20:05:19.734  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 20:05:19.928754755 +0000 UTC] 2020-09-20 20:05:19.928  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@57fa26b7: startup date [Sun Sep 20 20:05:19 GMT 2020]; root of context hierarchy\n
+[2020-09-20 20:05:23.37606673 +0000 UTC] 2020-09-20 20:05:23.375  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 20:05:23.453638162 +0000 UTC] 2020-09-20 20:05:23.453  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 20:05:23.454322129 +0000 UTC] 2020-09-20 20:05:23.454  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 20:05:23.478938667 +0000 UTC] 2020-09-20 20:05:23.478  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 20:05:23.627869653 +0000 UTC] 2020-09-20 20:05:23.627  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 20:05:23.629126139 +0000 UTC] 2020-09-20 20:05:23.628  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3712 ms\n
+[2020-09-20 20:05:23.891016473 +0000 UTC] 2020-09-20 20:05:23.890  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 20:05:23.903317749 +0000 UTC] 2020-09-20 20:05:23.902  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:56:43.861935887 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:56:43.860Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:59:02.347903053 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:59:02.347Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:59:02.348156904 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:59:02.348Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:59:03.02662453 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:59:03.025Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":0.758530414}\n
+[2020-09-20 19:56:46.555484742 +0000 UTC] \n
+[2020-09-20 19:56:46.560052386 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:56:46.560307404 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:56:46.560526598 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:56:46.560789869 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:56:46.560981316 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:56:46.561167848 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:56:46.570821727 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:56:46.571022727 +0000 UTC] \n
+[2020-09-20 19:56:46.964041717 +0000 UTC] 2020-09-20 19:56:46.959  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-qltck with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:56:46.973129923 +0000 UTC] 2020-09-20 19:56:46.972  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:56:47.162540868 +0000 UTC] 2020-09-20 19:56:47.160  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@277c0f21: startup date [Sun Sep 20 19:56:47 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:56:50.559000655 +0000 UTC] 2020-09-20 19:56:50.558  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:56:50.629083882 +0000 UTC] 2020-09-20 19:56:50.628  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:56:50.629961754 +0000 UTC] 2020-09-20 19:56:50.629  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:56:50.653830006 +0000 UTC] 2020-09-20 19:56:50.653  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:56:50.804879857 +0000 UTC] 2020-09-20 19:56:50.804  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:56:50.805706637 +0000 UTC] 2020-09-20 19:56:50.804  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3670 ms\n
+[2020-09-20 19:56:51.177688312 +0000 UTC] 2020-09-20 19:56:51.177  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:56:51.184744853 +0000 UTC] 2020-09-20 19:56:51.184  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:52:24.067492629 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:52:24.067Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:55:51.106960796 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:51.106Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:55:51.107041549 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:51.106Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:55:54.155116013 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:54.154Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":3.163364446}\n
+[2020-09-20 19:52:26.034355642 +0000 UTC] \n
+[2020-09-20 19:52:26.037139979 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:52:26.037432183 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:52:26.037696071 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:52:26.037968014 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:52:26.038227461 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:52:26.038446894 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:52:26.048000529 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:52:26.048249836 +0000 UTC] \n
+[2020-09-20 19:52:26.403609183 +0000 UTC] 2020-09-20 19:52:26.393  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-rbkhw with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:52:26.411033567 +0000 UTC] 2020-09-20 19:52:26.410  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:52:26.625212326 +0000 UTC] 2020-09-20 19:52:26.624  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@161cd475: startup date [Sun Sep 20 19:52:26 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:52:31.279962361 +0000 UTC] 2020-09-20 19:52:31.278  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:52:31.456551625 +0000 UTC] 2020-09-20 19:52:31.455  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:52:31.458035061 +0000 UTC] 2020-09-20 19:52:31.457  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:52:31.511558709 +0000 UTC] 2020-09-20 19:52:31.510  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:52:31.789288148 +0000 UTC] 2020-09-20 19:52:31.788  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:52:31.789902494 +0000 UTC] 2020-09-20 19:52:31.789  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5186 ms\n
+[2020-09-20 19:52:32.306475579 +0000 UTC] 2020-09-20 19:52:32.306  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:52:32.316450551 +0000 UTC] 2020-09-20 19:52:32.316  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:55:53.405911696 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:53.405Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:56:41.902899756 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:56:41.902Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:56:41.903145358 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:56:41.903Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:56:43.142678253 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:56:43.136Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":1.337342611}\n
+[2020-09-20 19:55:57.215393587 +0000 UTC] \n
+[2020-09-20 19:55:57.215988549 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:55:57.216552309 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:55:57.21692498 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:55:57.217243147 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:55:57.217528079 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:55:57.217835898 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:55:57.219940503 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:55:57.220131522 +0000 UTC] \n
+[2020-09-20 19:55:57.883002248 +0000 UTC] 2020-09-20 19:55:57.863  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-rrrxx with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:55:57.896784936 +0000 UTC] 2020-09-20 19:55:57.896  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:55:58.306640543 +0000 UTC] 2020-09-20 19:55:58.306  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@75828a0f: startup date [Sun Sep 20 19:55:58 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:56:04.858572787 +0000 UTC] 2020-09-20 19:56:04.858  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:56:04.933632748 +0000 UTC] 2020-09-20 19:56:04.932  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:56:04.934716208 +0000 UTC] 2020-09-20 19:56:04.934  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:56:04.95888986 +0000 UTC] 2020-09-20 19:56:04.958  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:56:05.449423132 +0000 UTC] 2020-09-20 19:56:05.448  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:56:05.450401638 +0000 UTC] 2020-09-20 19:56:05.449  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7159 ms\n
+[2020-09-20 19:56:05.755554641 +0000 UTC] 2020-09-20 19:56:05.755  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:56:05.761875146 +0000 UTC] 2020-09-20 19:56:05.761  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 20:01:11.281847347 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:01:11.279Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 20:05:11.807422949 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:05:11.807Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 20:05:11.807578859 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:05:11.807Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 20:05:12.881621626 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:05:12.880Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":1.173904973}\n
+[2020-09-20 20:01:13.253196245 +0000 UTC] \n
+[2020-09-20 20:01:13.253352603 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 20:01:13.253469758 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 20:01:13.253479091 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 20:01:13.25355937 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 20:01:13.253570003 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 20:01:13.253574742 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 20:01:13.259080947 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 20:01:13.259132976 +0000 UTC] \n
+[2020-09-20 20:01:13.601653329 +0000 UTC] 2020-09-20 20:01:13.593  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-snhpp with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 20:01:13.603089917 +0000 UTC] 2020-09-20 20:01:13.602  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 20:01:13.804492076 +0000 UTC] 2020-09-20 20:01:13.799  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@277c0f21: startup date [Sun Sep 20 20:01:13 GMT 2020]; root of context hierarchy\n
+[2020-09-20 20:01:17.207110107 +0000 UTC] 2020-09-20 20:01:17.206  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 20:01:17.294409507 +0000 UTC] 2020-09-20 20:01:17.293  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 20:01:17.295217553 +0000 UTC] 2020-09-20 20:01:17.294  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 20:01:17.323336997 +0000 UTC] 2020-09-20 20:01:17.322  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 20:01:17.498124295 +0000 UTC] 2020-09-20 20:01:17.497  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 20:01:17.498378329 +0000 UTC] 2020-09-20 20:01:17.498  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3712 ms\n
+[2020-09-20 20:01:17.869372921 +0000 UTC] 2020-09-20 20:01:17.868  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 20:01:17.876482775 +0000 UTC] 2020-09-20 20:01:17.875  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:49:27.338105268 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:49:27.337Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:52:24.319421927 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:52:24.319Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:52:24.319457389 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:52:24.319Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:52:25.428461277 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:52:25.428Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":1.548754175}\n
+[2020-09-20 19:49:31.053500755 +0000 UTC] \n
+[2020-09-20 19:49:31.053770307 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:49:31.05378373 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:49:31.053789103 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:49:31.053794124 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:49:31.053798406 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:49:31.053862761 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:49:31.056059027 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:49:31.056122999 +0000 UTC] \n
+[2020-09-20 19:49:31.884222747 +0000 UTC] 2020-09-20 19:49:31.864  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-v6rmk with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:49:31.888517936 +0000 UTC] 2020-09-20 19:49:31.888  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:49:32.15983208 +0000 UTC] 2020-09-20 19:49:32.159  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5f8ed237: startup date [Sun Sep 20 19:49:32 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:49:37.875441647 +0000 UTC] 2020-09-20 19:49:37.875  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:49:37.935594413 +0000 UTC] 2020-09-20 19:49:37.935  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:49:37.937516055 +0000 UTC] 2020-09-20 19:49:37.937  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:49:37.970213787 +0000 UTC] 2020-09-20 19:49:37.969  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:49:38.139676623 +0000 UTC] 2020-09-20 19:49:38.139  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:49:38.140074576 +0000 UTC] 2020-09-20 19:49:38.139  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5986 ms\n
+[2020-09-20 19:49:38.464964483 +0000 UTC] 2020-09-20 19:49:38.464  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:49:38.471165685 +0000 UTC] 2020-09-20 19:49:38.470  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 20:01:08.100408772 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:01:08.099Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 20:05:13.574584986 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:05:13.574Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 20:05:13.574637927 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:05:13.574Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 20:05:14.701686949 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T20:05:14.695Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":1.245930209}\n
+[2020-09-20 20:01:12.538286896 +0000 UTC] \n
+[2020-09-20 20:01:12.538364906 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 20:01:12.542618954 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 20:01:12.542838333 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 20:01:12.543016953 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 20:01:12.54319266 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 20:01:12.543406076 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 20:01:12.545239541 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 20:01:12.545396407 +0000 UTC] \n
+[2020-09-20 20:01:13.285073188 +0000 UTC] 2020-09-20 20:01:13.265  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-vc2vq with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 20:01:13.306343903 +0000 UTC] 2020-09-20 20:01:13.305  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 20:01:13.724358294 +0000 UTC] 2020-09-20 20:01:13.723  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@47089e5f: startup date [Sun Sep 20 20:01:13 GMT 2020]; root of context hierarchy\n
+[2020-09-20 20:01:20.689317578 +0000 UTC] 2020-09-20 20:01:20.688  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 20:01:20.859288326 +0000 UTC] 2020-09-20 20:01:20.851  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 20:01:20.860718534 +0000 UTC] 2020-09-20 20:01:20.860  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 20:01:20.972995011 +0000 UTC] 2020-09-20 20:01:20.968  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 20:01:21.375482606 +0000 UTC] 2020-09-20 20:01:21.375  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 20:01:21.375832404 +0000 UTC] 2020-09-20 20:01:21.375  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7665 ms\n
+[2020-09-20 20:01:22.068257228 +0000 UTC] 2020-09-20 20:01:22.067  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 20:01:22.076733039 +0000 UTC] 2020-09-20 20:01:22.076  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:52:25.902275923 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:52:25.901Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:55:49.036507944 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:49.035Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:55:49.036799244 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:49.036Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:55:50.561627721 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:55:50.558Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":1.626732604}\n
+[2020-09-20 19:52:28.684753072 +0000 UTC] \n
+[2020-09-20 19:52:28.684963826 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:52:28.684975551 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:52:28.684981904 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:52:28.684987871 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:52:28.684993515 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:52:28.685043758 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:52:28.687402903 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:52:28.687466711 +0000 UTC] \n
+[2020-09-20 19:52:29.013471753 +0000 UTC] 2020-09-20 19:52:29.002  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-vc95q with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:52:29.014692246 +0000 UTC] 2020-09-20 19:52:29.014  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:52:29.225153029 +0000 UTC] 2020-09-20 19:52:29.224  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@277c0f21: startup date [Sun Sep 20 19:52:29 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:52:32.677088789 +0000 UTC] 2020-09-20 19:52:32.676  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:52:32.775448706 +0000 UTC] 2020-09-20 19:52:32.774  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:52:32.776309199 +0000 UTC] 2020-09-20 19:52:32.775  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:52:32.808868548 +0000 UTC] 2020-09-20 19:52:32.808  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:52:33.006245511 +0000 UTC] 2020-09-20 19:52:33.005  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:52:33.007439646 +0000 UTC] 2020-09-20 19:52:33.006  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3794 ms\n
+[2020-09-20 19:52:33.31434853 +0000 UTC] 2020-09-20 19:52:33.313  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:52:33.320643827 +0000 UTC] 2020-09-20 19:52:33.320  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:42:20.85657613 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:42:20.856Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:49:21.351185611 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:49:21.350Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:49:21.351467645 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:49:21.351Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:49:21.943001784 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:49:21.942Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":0.678354842}\n
+[2020-09-20 19:42:24.832338235 +0000 UTC] \n
+[2020-09-20 19:42:24.832754927 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:42:24.832990616 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:42:24.83319306 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:42:24.833398922 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:42:24.833608495 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:42:24.83380817 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:42:24.843325784 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:42:24.843509029 +0000 UTC] \n
+[2020-09-20 19:42:25.498415195 +0000 UTC] 2020-09-20 19:42:25.459  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-z7c5c with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:42:25.513437032 +0000 UTC] 2020-09-20 19:42:25.513  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:42:25.824673895 +0000 UTC] 2020-09-20 19:42:25.824  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@277c0f21: startup date [Sun Sep 20 19:42:25 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:42:32.08720677 +0000 UTC] 2020-09-20 19:42:32.086  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:42:32.602729529 +0000 UTC] 2020-09-20 19:42:32.601  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:42:32.607945576 +0000 UTC] 2020-09-20 19:42:32.607  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:42:32.659573129 +0000 UTC] 2020-09-20 19:42:32.658  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:42:32.881810517 +0000 UTC] 2020-09-20 19:42:32.881  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:42:32.882050274 +0000 UTC] 2020-09-20 19:42:32.881  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7085 ms\n
+[2020-09-20 19:42:33.292702844 +0000 UTC] 2020-09-20 19:42:33.287  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:42:33.298736813 +0000 UTC] 2020-09-20 19:42:33.297  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
+[2020-09-20 19:42:17.457998181 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:42:17.457Z\",\"caller\":\"app/server.go:136\",\"msg\":\"fetcher ready to receive requests\"}\n
+[2020-09-20 19:49:22.247349935 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:49:22.247Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:321\",\"msg\":\"successfully placed\",\"location\":\"/userfunc/deployarchive\"}\n
+[2020-09-20 19:49:22.247401627 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:49:22.247Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:621\",\"msg\":\"calling environment v2 specialization endpoint\"}\n
+[2020-09-20 19:49:24.470031098 +0000 UTC] {\"level\":\"info\",\"ts\":\"2020-09-20T19:49:24.469Z\",\"logger\":\"fetcher\",\"caller\":\"fetcher/fetcher.go:584\",\"msg\":\"specialize request done\",\"elapsed_time\":2.313216572}\n
+[2020-09-20 19:42:18.972796583 +0000 UTC] \n
+[2020-09-20 19:42:18.977804072 +0000 UTC]   .   ____          _            __ _ _\n
+[2020-09-20 19:42:18.978049006 +0000 UTC]  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n
+[2020-09-20 19:42:18.978220529 +0000 UTC] ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\n
+[2020-09-20 19:42:18.978400107 +0000 UTC]  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\n
+[2020-09-20 19:42:18.978586333 +0000 UTC]   '  |____| .__|_| |_|_| |_\\__, | / / / /\n
+[2020-09-20 19:42:18.978776362 +0000 UTC]  =========|_|==============|___/=/_/_/_/\n
+[2020-09-20 19:42:18.987102514 +0000 UTC]  :: Spring Boot ::        (v2.0.1.RELEASE)\n
+[2020-09-20 19:42:18.98724902 +0000 UTC] \n
+[2020-09-20 19:42:19.887832864 +0000 UTC] 2020-09-20 19:42:19.843  INFO 1 --- [           main] io.fission.Server                        : Starting Server v0.0.1-SNAPSHOT on poolmgr-jvm-default-14858-6dc5d9b7d9-zlsmn with PID 1 (/app.jar started by root in /)\n
+[2020-09-20 19:42:19.891425681 +0000 UTC] 2020-09-20 19:42:19.891  INFO 1 --- [           main] io.fission.Server                        : No active profile set, falling back to default profiles: default\n
+[2020-09-20 19:42:20.439332973 +0000 UTC] 2020-09-20 19:42:20.433  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@77afea7d: startup date [Sun Sep 20 19:42:20 GMT 2020]; root of context hierarchy\n
+[2020-09-20 19:42:27.570193863 +0000 UTC] 2020-09-20 19:42:27.569  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)\n
+[2020-09-20 19:42:27.673010641 +0000 UTC] 2020-09-20 19:42:27.672  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n
+[2020-09-20 19:42:27.673918377 +0000 UTC] 2020-09-20 19:42:27.673  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29\n
+[2020-09-20 19:42:27.700982386 +0000 UTC] 2020-09-20 19:42:27.700  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]\n
+[2020-09-20 19:42:28.190436463 +0000 UTC] 2020-09-20 19:42:28.190  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\n
+[2020-09-20 19:42:28.19174963 +0000 UTC] 2020-09-20 19:42:28.190  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7787 ms\n
+[2020-09-20 19:42:28.83104526 +0000 UTC] 2020-09-20 19:42:28.830  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]\n
+[2020-09-20 19:42:28.900493492 +0000 UTC] 2020-09-20 19:42:28.900  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]\n
