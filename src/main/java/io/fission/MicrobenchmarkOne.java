@@ -18,7 +18,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 
-public class HelloWorld implements Function {
+public class MicrobenchmarkOne implements Function {
 
     private static AsyncHttpClient asyncHttpClient = asyncHttpClient();
 
