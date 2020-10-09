@@ -1,8 +1,10 @@
 package io.fission;
 
 import org.springframework.http.*;
+import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.web.util.UriComponentsBuilder;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URI;
@@ -13,7 +15,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 
-public class MicrobenchmarkOne implements Function {
+public class MicrobenchmarkZero implements Function {
 
     @Override
     public ResponseEntity<?> call(RequestEntity req, Context context) {
@@ -139,3 +141,4 @@ public class MicrobenchmarkOne implements Function {
     }
 
 }
+
